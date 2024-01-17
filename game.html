@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Royal Battle</title>
+  <script src="script.js" defer></script>
+  <script src="game.js" defer></script>
+  <link rel="stylesheet" href="game.css">
+</head>
+<body>
+  <header>
+    <img src="https://prod.assets.earlygamecdn.com/images/warcraft-mobile.jpeg?transform=article3x_webp" alt="">
+  </header>
+  <main>
+    <h1>Royal battle</h1>
+    <h2> Ready to win or not ???</h2>
+  <div class="personnages-container">
+    <ul>
+        <li class="character" id="character-01">
+          <img src="https://static1-br.millenium.gg/articles/3/42/53/@/86409-thumb1-article_list_m-1.jpg" alt="">
+            <div class="label">
+                <p class="character-name"></p>   
+                <p class="pv-label">PV : <span id="pv-value-character-01">150</span></p>
+                <p class="mana-label">Mana : <span id="mana-value-character-01">150</span></p>
+            </div>
+        </li>
+        <li>vs</li>
+        <li class="character" id="character-02">
+          <img src="https://static.wikia.nocookie.net/wowpedia/images/f/fa/Medivh_%28film%29.jpg" alt="">
+          <div class="label">
+            <p class="character-name"></p>    
+            <p class="pv-label">PV : <span id="pv-value-character-02">150</span></p>
+            <p class="mana-label">Mana : <span id="mana-value--character-02">150</span></p>
+        </div>
+        </li>
+      </ul>
+    <p class="text-center">Choose your action</p>
+
+    <button class="btn-attack">Attaquer</button>
+    <button class="btn-health">Soigner</button>
+  </div>
+  </main>
+</body>
+</html>
